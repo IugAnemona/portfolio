@@ -8,7 +8,7 @@ export class Card extends Component {
     return (
       <div className=" rounded-2xl bg-main-color shadow  w-80 md:w-8/12 lg:w-5/12 m-10 md:m-2 md:p-4 lg:p-8">
         <div className="">
-        <a href="https://relaxed-tartufo-07ce1b.netlify.app" target="_blank">
+        <a href="https://relaxed-tartufo-07ce1b.netlify.app" rel="noopener noreferrer" target="_blank">
 
         <img
           className=" cursor-pointer rounded-2xl p-1 w-full md:w-11/12 md:m-auto hover:scale-105 "
