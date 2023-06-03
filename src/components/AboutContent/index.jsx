@@ -7,7 +7,7 @@ export class About extends Component {
       <section className="h-screen bg-main">
         <div className="pt-20 mx-auto h-full container flex flex-wrap justify-center items-center text-center">
           <div className="text-white md:h-4/6 md:flex-1 p-6 tracking-wide md:text-2xl">
-            <h2 className="text-4xl my-10 md:text-7xl">Sobre Mim</h2>
+            <h2 className="text-4xl  md:text-7xl">Sobre Mim</h2>
             <div>
               <p class="my-4">
                 Meu nome é Guilherme Alves, trabalho com manutenção de
@@ -15,13 +15,23 @@ export class About extends Component {
               </p>
               <p class="my-4">
                 Atualmente estou cursando Analise e desenvolvimento de sofwares,
-                estudei python por um tempo, mas atualmente estou bastante
-                focando em Desenvolvimento web, front-end.
+                estou bastante focando em Desenvolvimento web, front-end.
               </p>
               <p class="my-4">
-                Atualmente uso HTML, CSS e JavaScript. Estou estudando nodejs e
-                React
+                Uso HTML, CSS e JavaScript. Estou estudando nodejs e React
               </p>
+              <p class="my-4">
+                Estou a procura de uma oportunidade de colocar meu conhecimentos
+                em prática, aprender, e conseguir continuar cursando.
+              </p>
+              <div className="flex w-full text-6xl text-white justify-center">
+            <a href="#home" className="mx-6 hover:scale-110">
+              <i className="fa-brands fa-instagram "></i>
+              
+            </a>
+            <a href="#home" className="mx-6 hover:scale-110"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#home" className="mx-6 hover:scale-110"><i class="fa-brands fa-square-github"></i></a>
+          </div>
             </div>
           </div>
           <div className="w-2/3 md:w-2/5">
@@ -29,6 +39,7 @@ export class About extends Component {
               <img className="" src={eve} alt="" />
             </a>
           </div>
+          
         </div>
       </section>
     );
