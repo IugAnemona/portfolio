@@ -18,7 +18,7 @@ export function Header(){
           <div><a href="#home"><img className=" w-9 rounded-full" src={logo} alt="" /></a></div>
           <div className="flex-1 items-end text-main-color font-bold md:flex">
             <nav className="flex-1 md:static ">
-            <ul className={active ? "z-[-1] md:z-auto top-16 bg-slate-100 absolute w-full left-0 md:flex md:justify-end md:static transition-all ease-in duration-500" : "z-[-1] md:z-auto top-[-200px] opacity-0 bg-slate-100 absolute w-full left-0 md:flex md:justify-end md:static transition-all ease-in duration-500"}>
+            <ul className={active ? "z-[-1] md:z-auto top-16 bg-slate-100 absolute w-full left-0 md:flex md:justify-end md:static transition-all ease-in duration-500" : "z-[-1] md:z-auto top-[-200px] md:opacity-100 opacity-0 bg-slate-100 absolute w-full left-0 md:flex md:justify-end md:static transition-all ease-in duration-500"}>
             <li className="px-4 m-10 md:m-0"><a className="hover:text-slate-500 text-xl" href="#home">Sobre</a></li>
             <li className="px-4 m-10 md:m-0"><a className="hover:text-slate-500 text-xl" href="#projetos">Projetos</a></li>
             <li className="px-4 m-10 md:m-0"><a className="hover:text-slate-500 text-xl" href="#home">Contatos</a></li>

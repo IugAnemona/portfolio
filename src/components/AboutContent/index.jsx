@@ -25,12 +25,12 @@ export class About extends Component {
                 em prática, aprender, e conseguir continuar cursando.
               </p>
               <div className="flex w-full text-6xl text-white justify-center">
-            <a href="https://www.instagram.com/guianemona/" rel="noopener noreferrer" className="mx-6 hover:scale-110">
+            <a target="_blank" href="https://www.instagram.com/guianemona/" rel="noopener noreferrer" className="mx-6 hover:scale-110">
               <i className="fa-brands fa-instagram "></i>
               
             </a>
-            <a href="https://www.linkedin.com/in/guilherme-alves-25109624a/" rel="noopener noreferrer" className="mx-6 hover:scale-110"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/IugAnemona" rel="noopener noreferrer" className="mx-6 hover:scale-110"><i class="fa-brands fa-square-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/guilherme-alves-25109624a/" rel="noopener noreferrer" className="mx-6 hover:scale-110"><i class="fa-brands fa-linkedin"></i></a>
+            <a target="_blank" href="https://github.com/IugAnemona" rel="noopener noreferrer" className="mx-6 hover:scale-110"><i class="fa-brands fa-square-github"></i></a>
           </div>
             </div>
           </div>
