@@ -4,7 +4,7 @@ import eve from "./eveemote.png";
 export class About extends Component {
   render() {
     return (
-      <section className="h-screen bg-main">
+      <section className="h-screen bg-main" id="Home">
         <div className="pt-14 md:p-0 mx-auto h-full container flex flex-wrap justify-center items-center text-center">
           <div className="text-white md:h-4/6 md:flex-1 p-6 tracking-wide ">
             <h2 className="text-4xl  md:text-7xl">Sobre Mim</h2>
@@ -61,7 +61,11 @@ export class About extends Component {
             </div>
           </div>
           <div className="w-2/3 md:w-2/5">
-            <a href="#home">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/p/CR32LpirI6y/"
+              rel="noopener noreferrer"
+            >
               <img className="md:block" src={eve} alt="" />
             </a>
           </div>
