@@ -9,7 +9,7 @@ export class Section extends Component {
   render() {
     return (
       <main id="projetos" className="bg-slate-100">
-        <div className="container mx-auto py-10 flex flex-wrap justify-center md:justify-evenly text-center border-2 border-blue-500">
+        <div className="container mx-auto py-10 flex flex-wrap justify-center md:justify-evenly text-center">
           <Card
             link={"https://iuganemona.github.io/WeatherApp/"}
             imagem={weatherImg}
