@@ -14,24 +14,51 @@ export class About extends Component {
                 computadores e Help desk.
               </p>
               <p class="my-4">
-                Atualmente estou cursando Analise e desenvolvimento de sofwares,
-                estou bastante focando em Desenvolvimento web, front-end.
+                Sou um desenvolvedor web iniciante, entusiasmado e com grande
+                interesse em aprender e crescer na área. Tenho conhecimentos
+                básicos em HTML e CSS, e estou em busca de uma oportunidade para
+                iniciar minha carreira como desenvolvedor front-end.
               </p>
               <p class="my-4">
-                Uso HTML, CSS e JavaScript. Estou estudando nodejs e React
+                Estou familiarizado com os conceitos fundamentais do
+                desenvolvimento web, como estruturação de páginas HTML e
+                estilização com CSS. Também tenho conhecimento básico sobre o
+                framework Tailwind CSS, que me permite criar interfaces de
+                usuário de forma eficiente.
               </p>
               <p class="my-4">
-                Estou a procura de uma oportunidade de colocar meu conhecimentos
-                em prática, aprender, e conseguir continuar cursando.
+                Sou um profissional dedicado, com habilidades de organização e
+                atenção aos detalhes. Estou sempre disposto a aprender e
+                adquirir novas habilidades.Estou em busca de uma oportunidade
+                para aplicar meus conhecimentos e crescer profissionalmente como
+                desenvolvedor front-end.
               </p>
               <div className="flex w-full text-6xl text-white justify-center">
-            <a target="_blank" href="https://www.instagram.com/guianemona/" rel="noopener noreferrer" className="mx-6 hover:scale-110">
-              <i className="fa-brands fa-instagram "></i>
-              
-            </a>
-            <a target="_blank" href="https://www.linkedin.com/in/guilherme-alves-25109624a/" rel="noopener noreferrer" className="mx-6 hover:scale-110"><i class="fa-brands fa-linkedin"></i></a>
-            <a target="_blank" href="https://github.com/IugAnemona" rel="noopener noreferrer" className="mx-6 hover:scale-110"><i class="fa-brands fa-square-github"></i></a>
-          </div>
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/guianemona/"
+                  rel="noopener noreferrer"
+                  className="mx-6 hover:scale-110"
+                >
+                  <i className="fa-brands fa-instagram "></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/guilherme-alves-25109624a/"
+                  rel="noopener noreferrer"
+                  className="mx-6 hover:scale-110"
+                >
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/IugAnemona"
+                  rel="noopener noreferrer"
+                  className="mx-6 hover:scale-110"
+                >
+                  <i class="fa-brands fa-square-github"></i>
+                </a>
+              </div>
             </div>
           </div>
           <div className="w-2/3 md:w-2/5">
@@ -39,7 +66,6 @@ export class About extends Component {
               <img className="" src={eve} alt="" />
             </a>
           </div>
-          
         </div>
       </section>
     );
