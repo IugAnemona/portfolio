@@ -6,9 +6,9 @@ export class About extends Component {
     return (
       <section className="h-screen bg-main">
         <div className="pt-20 mx-auto h-full container flex flex-wrap justify-center items-center text-center">
-          <div className="text-white md:h-4/6 md:flex-1 p-6 tracking-wide md:text-2xl">
+          <div className="text-white md:h-4/6 md:flex-1 p-6 tracking-wide ">
             <h2 className="text-4xl  md:text-7xl">Sobre Mim</h2>
-            <div>
+            <div className="text-sm md:text-xl">
               <p class="my-4">
                 Meu nome é Guilherme Alves, trabalho com manutenção de
                 computadores e Help desk.
@@ -26,13 +26,7 @@ export class About extends Component {
                 framework Tailwind CSS, que me permite criar interfaces de
                 usuário de forma eficiente.
               </p>
-              <p class="my-4">
-                Sou um profissional dedicado, com habilidades de organização e
-                atenção aos detalhes. Estou sempre disposto a aprender e
-                adquirir novas habilidades.Estou em busca de uma oportunidade
-                para aplicar meus conhecimentos e crescer profissionalmente como
-                desenvolvedor front-end.
-              </p>
+
               <div className="flex w-full text-6xl text-white justify-center">
                 <a
                   target="_blank"
@@ -63,7 +57,7 @@ export class About extends Component {
           </div>
           <div className="w-2/3 md:w-2/5">
             <a href="#home">
-              <img className="" src={eve} alt="" />
+              <img className="md:block" src={eve} alt="" />
             </a>
           </div>
         </div>
