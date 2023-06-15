@@ -11,12 +11,10 @@ export class Section extends Component {
       <main id="projetos" className="bg-slate-100">
         <div className="container mx-auto py-10 flex flex-wrap justify-center md:justify-evenly text-center">
           <Card
-            link={"https://iuganemona.github.io/WeatherApp/"}
+            link={"https://roaring-pithivier-eb6915.netlify.app"}
             imagem={weatherImg}
             title="WeatherApp"
-            text="Aplicativo que permite o usuário pesquisar a atual condições climaticas de qualquer cidade do mundo. Usei JavaScript para receber dados da Weather API
-
-Usei JavaScript para receber dados da Weather API transformar em um JSON, manipular os dados do JSON e jogar no DOM do Html."
+            text="Aplicativo que permite o usuário pesquisar a atual condições climaticas de qualquer cidade do mundo. Usei Vue.js para receber dados da Weather API transformar em um JSON, manipular os dados do JSON e jogar no DOM do Html."
           />
           <Card
             link={"https://relaxed-tartufo-07ce1b.netlify.app"}
